@@ -1,0 +1,34 @@
+.line-chart {
+  display: flex;
+}
+
+.activity-txt {
+  align-self: center;
+}
+
+.activity-heading {
+  text-align: left !important;
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 18px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.activity-chart {
+  margin-top: 10px;
+}
+
+.activity-dropdown {
+  text-align: left !important;
+  border-width: 0px;
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 14px;
+  color: #858585;
+  display: block;
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 5px;
+}

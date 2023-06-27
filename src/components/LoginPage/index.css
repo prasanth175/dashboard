@@ -1,0 +1,173 @@
+.login-container {
+  display: flex;
+  height: 100vh;
+}
+
+.login-left-container {
+  background-color: #000000;
+  width: 588px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-left-heading {
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 87.77px;
+}
+
+.login-right-container {
+  background-color: #f5f5f5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.login-right-inner-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border: 1px solid black;
+}
+
+.sign-in-heading {
+  font-family: 'Montserrat';
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 43.88px;
+  color: #000000;
+}
+
+.sign-in-txt {
+  font-family: 'Lato';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19.2px;
+  color: #000000;
+  margin-bottom: 15px;
+}
+
+.login-providers {
+  display: flex;
+  align-items: center;
+}
+
+.login-provider-container {
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 5px;
+  padding: 10px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.google-login {
+  background-color: transparent;
+}
+
+.provider-img {
+  width: 14px;
+  height: 14px;
+}
+
+.provider-txt {
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14.63px;
+  margin-left: 10px;
+  color: #858585;
+}
+
+.login-form {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  /* border: 1px solid black; */
+  width: 385px;
+  height: 317px;
+  padding: 20px;
+}
+
+.login-label {
+  font-family: 'Lato';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19.2px;
+  margin-bottom: 10px;
+  color: #000000;
+}
+
+.login-input {
+  background-color: #f5f5f5;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.forgot-txt {
+  color: #346bd4;
+  font-family: 'Lato';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19.2px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.login-btn {
+  background-color: #000000;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19.5px;
+  border-radius: 5px;
+  padding: 8px 15px;
+}
+
+.register-msg {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19.2px;
+  color: #858585;
+  margin-top: 20px;
+  align-self: center;
+}
+
+@media (max-width: 800px) {
+  .login-container {
+    flex-direction: column;
+  }
+
+  .login-left-container {
+    width: 100vw;
+  }
+
+  .login-right-container {
+    height: 100%;
+  }
+}
+
+@media (max-width: 460px) {
+  .login-right-inner-container {
+    width: 90vw;
+    text-align: center;
+  }
+
+  .login-providers {
+    flex-direction: column;
+  }
+
+  .login-container {
+    align-self: center;
+  }
+}

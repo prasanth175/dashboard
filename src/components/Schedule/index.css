@@ -1,0 +1,45 @@
+.schedule {
+  background-color: #ffffff;
+  border-radius: 5px;
+  padding: 5px;
+  margin-left: 20px;
+  width: 40%;
+  height: 190px;
+}
+
+.schedule-heading {
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21.94px;
+  margin-bottom: 10px;
+}
+
+.schedule-item {
+  border-left: 5px solid;
+  padding-left: 20px;
+  /* border-color: aqua;
+    border: 5px solid aqua; */
+  margin-bottom: 10px;
+}
+
+.work {
+  font-family: 'Lato';
+  font-weight: 700;
+  font-size: 14px;
+  color: #666666;
+}
+
+.time {
+  font-family: 'Lato';
+  font-weight: 400;
+  font-size: 12px;
+  color: #999999;
+}
+
+.location {
+  font-family: 'Lato';
+  font-weight: 400;
+  font-size: 12px;
+  color: #999999;
+}

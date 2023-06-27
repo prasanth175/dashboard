@@ -1,0 +1,41 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 95%;
+}
+
+.nav-heading {
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29.26px;
+}
+
+.nav-right-container {
+  display: flex;
+  align-items: center;
+}
+
+.nav-input-field {
+  display: flex;
+  align-items: center;
+  color: #858585;
+  background-color: #ffffff;
+  border-radius: 5px;
+  padding: 8px;
+  margin-right: 20px;
+}
+
+.notification-img {
+  height: 20px;
+  width: 18px;
+  margin-right: 20px;
+  color: #000000;
+}
+
+.profile-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
